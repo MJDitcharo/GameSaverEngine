@@ -63,6 +63,7 @@ namespace md
 
 
 		// run batch to compile .hlsl to .spv
+		// sleep till batch finishes
 		HINSTANCE result = ShellExecute(NULL, "open", "D:/Visual Studio 2022 Projects/GameSaver/GameSaver/shaders/compile.bat",
 			NULL, NULL, SW_SHOWNORMAL);
 		std::this_thread::sleep_for(std::chrono::seconds(1));
