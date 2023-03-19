@@ -7,7 +7,6 @@
 #include <iostream>
 #include <cassert>
 #include "Windows.h"
-#include <shellapi.h>
 #include <chrono>
 
 namespace md
